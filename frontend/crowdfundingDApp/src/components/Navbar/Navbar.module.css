@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.leftContainer {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.rightContainer {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.appTitle {
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(12, 243, 12);;
+}
+
+.campaignLink,
+.dashboardLink,
+.connectButton,
+.disconnectButton {
+    box-shadow: 1px 1px grey;
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(12, 243, 12);
+}
+
+.campaignLink:hover,
+.dashboardLink:hover,
+.connectButton:hover,
+.disconnectButton:hover {
+    background-color: rgb(18, 221, 18);
+    cursor: pointer;
+}
+
+.disconnectButton {
+    margin-left: 25px;
+}
